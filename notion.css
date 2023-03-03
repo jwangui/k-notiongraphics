@@ -1,0 +1,180 @@
+body{
+   margin: 0;
+   /*background: rgb(255, 187, 0);*/
+   background:linear-gradient(to right,#1e1619, #491033,#941f67,#bb167c,#941f67,#491033, #1e1619);
+   
+}
+p{
+    color : white;
+}
+
+.nav-area{
+    display: flex; 
+    flex-direction: row;
+    justify-content:flex-start; 
+    margin-left: 40px;
+    height: 150px; 
+    margin-top: 10px; 
+}
+
+.logo{
+    width:60px;
+
+}
+/* Navigation Link Buttons */
+.nav-btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.0em;
+  }
+  
+  /* On mouse-over */
+  .nav-btn:hover {background: linear-gradient(to right ,#FF8008,#FFC837);
+    border:#fff;
+    border-style: solid;
+    border:#fff;
+}
+ 
+  /* Notion Graphics */  
+.notion-text{
+    display: flex;
+    /*background: rgba(189, 63, 63, 0.5); */
+    flex-direction:column;
+    /* border: 2px; 
+    border-style: solid;*/
+    width: 400px;
+    padding: 40px;
+    top: 70px;
+    left: 80px;
+    color: #000000;
+    text-align:start;
+}
+.notion{
+    /* font-family: ; */
+    font-weight: 500;
+    font-size: 60px;
+    margin:0px;
+    font-family: 'Noto Serif Display', serif;
+}
+.notion-line{
+    /* font-family: ; */
+    font-weight:-100px;
+    font-size: 20px;
+    margin:2px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* What we Design Button */
+.mainbutton-container{
+    display: flex; 
+    flex-direction: row;
+   /* border: 2px; 
+    border-style: solid;*/
+    width: 450px;
+    padding-left: 30px;
+    padding-bottom: 90px;
+   
+}
+.mainbutton {
+    display: flex; 
+    flex-direction: row;
+    justify-content:center;
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, rgb(255, 123, 0),
+    rgb(255, 174, 0),rgba(255, 166, 0, 0.637));
+    border-radius: 20px;
+    font-family:serif;
+    font-size: 20px;
+    font-weight:bold;
+    padding: 12px;
+    width: 280px;
+   }
+   
+   .mainbutton:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 3s infinite;
+    animation: pulse512 2.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+
+   .social-media-icons{
+    display: flex; 
+    padding-left: 40px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+   /* border: 2px; 
+    border-style: solid; */
+    width : 440px;
+    height: 70px;
+   }
+
+   .sm1{
+    width:40px; 
+    background: #ff66c4;
+    border:none;
+    border-radius: 20px;
+    margin-right: 50px; 
+   }
+   .sm1:hover {
+    transform: scale(1.2);
+   }
+
+   .sm2{
+    width:40px;
+    background: #ff66c4;
+    border:none;
+    border-radius: 20px;
+    flex: 1fr;
+    margin-right: 50px;
+   }
+   .sm2:hover {
+    transform: scale(1.2);
+   }
+
+   .sm3{
+    width:40px;
+    background: #ff66c4;
+    border:none;
+    border-radius: 20px;
+    flex: 1fr; 
+    margin-right: 300px;
+   }
+   .sm3:hover {
+    transform: scale(1.2);
+   }
+
+   .big-image{
+    flex-direction: row;
+    width: 638px;
+    height: 638px;
+    position: absolute;
+    z-index: 10;
+    margin:0;
+    padding: 0px;
+    top:10px;
+    right:50px;
+
+   }
